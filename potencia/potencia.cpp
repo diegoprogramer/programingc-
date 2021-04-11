@@ -89,7 +89,7 @@ void potenciaOperation() {
 
 			}
 
-			cout << " \n "<<cad<<" = "<<getFactorial(factorial)<<"\n";
+			cout << " \n "<<cad<<" = "<<to_string(getFactorial(factorial))<<"\n";
 			
 			std::cout << "Desea continuar s/n: ";
 			std::cin >> opc;
